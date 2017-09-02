@@ -19,7 +19,7 @@ const ActiveLink = ({ label, to, activeOnlyWhenExact }) => (
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App" id="page-wrap">
         <h1>Coulter Freyre</h1>
         <h2>Developer Extraordinaire</h2>
 

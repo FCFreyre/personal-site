@@ -20,7 +20,7 @@ class App extends Component {
   render() {
     return (
       <div className="App" id="page-wrap">
-        <h1>Coulter Freyre</h1>
+        <h1>F. Coulter Freyre</h1>
         <h2>Developer Extraordinaire</h2>
 
         <About />

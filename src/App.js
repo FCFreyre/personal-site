@@ -19,14 +19,14 @@ const ActiveLink = ({ label, to, activeOnlyWhenExact }) => (
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div id="page-wrap">
+      <div className="App" id="page-wrap">
+        <div id="sidebar">
           <h1>F. Coulter Freyre</h1>
           <h2>Developer Extraordinaire</h2>
 
-          <About />
-
-          <div className="">
+          <div className="links">
+              <ActiveLink activeOnlyWhenExact to="/About" label="About" />
+              <br/>
               <ActiveLink activeOnlyWhenExact to="/Contact" label="Contact" />
               <br/>
               <ActiveLink activeOnlyWhenExact to="/Header" label="Header" />
@@ -35,7 +35,8 @@ class App extends Component {
           </div>
         </div>
 
-        //components render here under class "page-header"
+        {/* components render here under class "page-header" */}
+
 
       </div>
     );

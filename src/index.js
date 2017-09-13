@@ -17,7 +17,7 @@ ReactDOM.render(
   <Router>
     <div>
       <Route path="/" component={App} />
-      <Route exact path="/" component={About} />
+      <Route exact path="/about" component={About} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/header" component={Header} />
       <Route exact path="/projects" component={Projects} />

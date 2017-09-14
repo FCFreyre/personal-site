@@ -2,10 +2,12 @@
   width: 600px;
   margin: 15px auto;
   position: relative;
+  display: flex;
+  
 }
 
 #sidebar {
   width: 190px;
   position: fixed;
-  margin-left: 410px; 
+  margin-left: 0px;
 }

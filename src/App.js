@@ -38,4 +38,6 @@ class App extends Component {
   }
 }
 
+console.log("You've found the console, well done! If you'd like to see my code, check out github.com/FCFreyre")
+
 export default App;

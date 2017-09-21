@@ -25,13 +25,14 @@ class App extends Component {
           <h2>Developer Extraordinaire</h2>
 
           <div className="links">
+              <ActiveLink activeOnlyWhenExact to="/Projects" label="Projects" />
+              <br/>
               <ActiveLink activeOnlyWhenExact to="/About" label="About" />
               <br/>
               <ActiveLink activeOnlyWhenExact to="/Contact" label="Contact" />
               <br/>
               <ActiveLink activeOnlyWhenExact to="/Header" label="Header" />
               <br/>
-              <ActiveLink activeOnlyWhenExact to="/Projects" label="Projects" />
           </div>
         </div>
 

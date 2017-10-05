@@ -17,6 +17,10 @@
   padding: 2px;
   background-color: gray;
   border: 1px black solid;
+
+  position: -webkit-sticky;  // required for Safari
+  position: sticky;
+  top: 0;
 }
 
 .page-header {

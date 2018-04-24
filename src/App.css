@@ -1,0 +1,17 @@
+nav {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  margin: -8px;
+  padding: 8px;
+}
+
+.links {
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+a #my-name {
+  font-size: 4vw;
+}

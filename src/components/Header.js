@@ -6,7 +6,7 @@ export default class Header extends Component {
     return(
       <div className= 'page-header'>
         <h1>This is the header</h1>
-        <h3>We may turn this into a nav bar, but let's see how we style it first</h3>
+        <h3>We may turn this into a nav bar, but lets see how we style it first</h3>
       </div>
     )
   }

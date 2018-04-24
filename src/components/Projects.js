@@ -5,7 +5,7 @@ export default class Projects extends Component {
   render() {
     return(
       <div className= 'page-header'>
-        <h1>He's done so much! What a guy.</h1>
+        <h1>He has done so much! What a guy.</h1>
         <ul>
           <li>
             Project #1 (probably capstone)

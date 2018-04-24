@@ -18,7 +18,6 @@ ReactDOM.render(
     <div>
       <Route path="/" component={App} />
       <Route exact path="/" component={About} />
-      // renders about on both paths
       <Route exact path="/about" component={About} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/header" component={Header} />

@@ -20,23 +20,22 @@ class App extends Component {
   render() {
     return (
       <div className="App" id="page-wrap">
-        <div id="sidebar">
-          <h1>F. Coulter Freyre</h1>
-          <h2>Developer Extraordinaire</h2>
 
-          <div className="links">
-              <ActiveLink activeOnlyWhenExact to="/Projects" label="Projects" />
-              <br/>
-              <ActiveLink activeOnlyWhenExact to="/About" label="About" />
-              <br/>
-              <ActiveLink activeOnlyWhenExact to="/Contact" label="Contact" />
-              <br/>
-              <ActiveLink activeOnlyWhenExact to="/Header" label="Header" />
-              <br/>
-          </div>
+        <h1>F. Coulter Freyre</h1>
+        <h2>Developer Extraordinaire</h2>
+
+        <div className="links">
+            <ActiveLink activeOnlyWhenExact to="/Projects" label="Projects" />
+            <br/>
+            <ActiveLink activeOnlyWhenExact to="/About" label="About" />
+            <br/>
+            <ActiveLink activeOnlyWhenExact to="/Contact" label="Contact" />
+            <br/>
+            <ActiveLink activeOnlyWhenExact to="/Header" label="Header" />
+            <br/>
         </div>
 
-        {/* components render here under class "page-header" */}
+      {/* components render here under class "page-header" */}
 
 
       </div>
